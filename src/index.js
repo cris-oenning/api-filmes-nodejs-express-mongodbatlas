@@ -52,8 +52,6 @@ app.post("/", async (req, res) => {
 });
 
 app.listen(port, () => {
-  mongoose.connect(
-    "mongodb+srv://root:root@cluster0.izyut1t.mongodb.net/?retryWrites=true&w=majority"
-  );
+  mongoose.connect("sua string de conexão com o mongoDb Atlas");
   console.log("App running");
 });
