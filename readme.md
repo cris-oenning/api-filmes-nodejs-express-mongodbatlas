@@ -1,6 +1,6 @@
 # API de filmes em Node.js com Express e MongoDB Atlas
 
-Este é um projeto simples de exemplo de uma API de filmes em Node.js que utiliza o framework Express.js para criar endpoints que se conectam a um banco de dados MongoDB. Esta API permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) em uma coleção de filmes.
+Este é um projeto simples de exemplo de uma API de filmes em Node.js que utiliza o framework Express.js para criar endpoints que se conectam a um banco de dados MongoDB Atlas. Esta API permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) em uma coleção de filmes.
 
 ## Requisitos
 
