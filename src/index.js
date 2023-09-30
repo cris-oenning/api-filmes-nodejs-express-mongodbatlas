@@ -2,10 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
+app.use(express.json());
 const port = 3000;
-mongoose.connect(
-  "mongodb+srv://root:<password>@cluster0.izyut1t.mongodb.net/?retryWrites=true&w=majority"
-);
 
 const Film = mongoose.model("Film", {
   title: String,
@@ -31,5 +29,8 @@ app.post("/", async (req, res) => {
 });
 
 app.listen(port, () => {
+  mongoose.connect(
+    "mongodb+srv://root:root@cluster0.izyut1t.mongodb.net/?retryWrites=true&w=majority"
+  );
   console.log("App running");
 });
